@@ -20,6 +20,14 @@
 !/icon/svg/flag/*.svg
 !/icon/svg/flag/README.md
 
+# 144px PNG exports (for clients that do not support SVG icons)
+!/png/
+/png/*
+!/png/common/
+!/png/flag/
+!/png/common/*.png
+!/png/flag/*.png
+
 /docs/*
 !/docs/assets/
 /docs/assets/*
@@ -28,3 +36,7 @@
 /Other/*
 !/Other/Qure-Style-SVG.json
 __pycache__/
+
+# local helpers (not tracked)
+browse.html
+surge-icon-url.txt
